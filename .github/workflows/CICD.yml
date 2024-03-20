@@ -41,10 +41,10 @@ jobs:
     environment: 
       # The environment name must match the envrionment name in the repository
       name: Development
-      url: 'http//dev/myapp.com'
+      url: 'http://dev.myapp.com'
     steps:
       - name: Deploy
-        run: echo Your code is being deployed to http//dev/myapp.com
+        run: echo Your code is being deployed to http://dev.myapp.com
   
   # Our deployment to staging environment
   DeployStaging:
